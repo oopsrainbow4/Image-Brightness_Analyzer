@@ -7,8 +7,9 @@ Analyze Brightness by average, brightest and darkest value.
 - Pillow 12.2.0
 
 ## Setup
-- python -m venv venv # Windows
-- venv\Scripts\activate
-- pip install numpy
-- pip install Pillow
-- py main.py
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install numpy pillow
+py main.py
+```
