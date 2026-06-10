@@ -1,4 +1,4 @@
-## My Small Project
+# My Small Project
 Analyze Brightness by average, brightest and darkest value.
 
 ## Requirements
