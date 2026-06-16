@@ -3,7 +3,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 # "medkit_phighting.png", "small_pixel_art_star.jpg" and "ten_cents_coin.jpg"
-img = Image.open("medkit_phighting.png")
+img = Image.open("ten_cents_coin.jpg")
 convert_img = img.convert("L")
 
 img_array = np.array(convert_img)
@@ -14,7 +14,7 @@ minimal_value_array = np.min(img_array)
 
 img_1d_array = img_array.ravel()
 
-plt.hist(img_1d_array, bins=52, density=True)
+plt.hist(img_1d_array, bins=256)
 
 plt.xlabel("x-Axis: Brightness (0 - 255)")
 plt.ylabel("y-Axis: Amount of same brightness")
