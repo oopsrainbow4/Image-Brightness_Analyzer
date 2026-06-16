@@ -10,6 +10,6 @@ Analyze Brightness by average, brightest and darkest value.
 ```bash
 python -m venv .venv
 venv\Scripts\activate
-pip install numpy pillow
+pip install numpy pillow matplotlib 
 py main.py
 ```
